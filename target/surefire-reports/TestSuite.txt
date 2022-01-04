@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 25.191 s <<< FAILURE! - in TestSuite
+testRunners.TestRunners.runScenario["scenario1", "Optional[feature1]"](1)  Time elapsed: 6.095 s  <<< FAILURE!
+java.lang.NullPointerException: inStream parameter is null
+
+testRunners.TestRunners.runScenario["scenario1", "Optional[feature1]"](2)  Time elapsed: 6.035 s  <<< FAILURE!
+java.lang.NullPointerException: inStream parameter is null
+
+testRunners.TestRunners.runScenario["scenario1", "Optional[feature1]"](3)  Time elapsed: 6.044 s  <<< FAILURE!
+java.lang.NullPointerException: inStream parameter is null
+
+testRunners.TestRunners.runScenario["scenario2", "Optional[feature2]"](4)  Time elapsed: 6.036 s  <<< FAILURE!
+java.lang.NullPointerException: inStream parameter is null
+
