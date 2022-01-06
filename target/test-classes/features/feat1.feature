@@ -9,7 +9,7 @@ And user clicks on submit button
 Then system should display "Selenium Test Example Page" page
 Examples:
 
-|names1|name2|
+|names1|names2|
 |sheereesh|rameshh|
 |rajeshh|rakeshhh|
 |paramesh|paraddou|

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-01T13:26:44 IST" name="suitename" finished-at="2022-01-01T13:27:08 IST" duration-ms="24677">
+  <suite started-at="2022-01-06T20:26:26 IST" name="Default suite" finished-at="2022-01-06T20:26:27 IST" duration-ms="607">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunners@506ae4d4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunners@942a29c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-01-01T13:26:44 IST" name="testname" finished-at="2022-01-01T13:27:08 IST" duration-ms="24677">
+    <test started-at="2022-01-06T20:26:26 IST" name="Default test" finished-at="2022-01-06T20:26:27 IST" duration-ms="607">
       <class name="testRunners.TestRunners">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.TestRunners@506ae4d4]" started-at="2022-01-01T13:26:44 IST" name="setUpClass" finished-at="2022-01-01T13:26:44 IST" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.TestRunners@942a29c]" started-at="2022-01-06T20:26:27 IST" name="setUpClass" finished-at="2022-01-06T20:26:27 IST" duration-ms="366" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@388ba540]]>
+                <![CDATA[org.testng.TestRunner@56276db8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunners@506ae4d4]" started-at="2022-01-01T13:26:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-01T13:26:50 IST" duration-ms="6161" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunners@942a29c]" started-at="2022-01-06T20:26:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-06T20:26:27 IST" duration-ms="124" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,24 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[inStream parameter is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: inStream parameter is null
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.Properties.load(Properties.java:407)
-at util.PropertyReader.properyReader(PropertyReader.java:19)
-at util.InvokeBrowser.invokeBrowser(InvokeBrowser.java:17)
-at myHooks.MyHooks.invokeBrowser(MyHooks.java:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunners@506ae4d4]" started-at="2022-01-01T13:26:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-01T13:26:56 IST" duration-ms="6047" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunners@942a29c]" started-at="2022-01-06T20:26:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-06T20:26:27 IST" duration-ms="24" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,24 +50,10 @@ at myHooks.MyHooks.invokeBrowser(MyHooks.java:14)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[inStream parameter is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: inStream parameter is null
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.Properties.load(Properties.java:407)
-at util.PropertyReader.properyReader(PropertyReader.java:19)
-at util.InvokeBrowser.invokeBrowser(InvokeBrowser.java:17)
-at myHooks.MyHooks.invokeBrowser(MyHooks.java:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunners@506ae4d4]" started-at="2022-01-01T13:26:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-01T13:27:02 IST" duration-ms="6061" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunners@942a29c]" started-at="2022-01-06T20:26:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-06T20:26:27 IST" duration-ms="25" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,24 +66,10 @@ at myHooks.MyHooks.invokeBrowser(MyHooks.java:14)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[inStream parameter is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: inStream parameter is null
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.Properties.load(Properties.java:407)
-at util.PropertyReader.properyReader(PropertyReader.java:19)
-at util.InvokeBrowser.invokeBrowser(InvokeBrowser.java:17)
-at myHooks.MyHooks.invokeBrowser(MyHooks.java:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunners@506ae4d4]" started-at="2022-01-01T13:27:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-01T13:27:08 IST" duration-ms="6013" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunners@942a29c]" started-at="2022-01-06T20:26:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-06T20:26:27 IST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,28 +82,14 @@ at myHooks.MyHooks.invokeBrowser(MyHooks.java:14)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[inStream parameter is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: inStream parameter is null
-at java.base/java.util.Objects.requireNonNull(Objects.java:233)
-at java.base/java.util.Properties.load(Properties.java:407)
-at util.PropertyReader.properyReader(PropertyReader.java:19)
-at util.InvokeBrowser.invokeBrowser(InvokeBrowser.java:17)
-at myHooks.MyHooks.invokeBrowser(MyHooks.java:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.TestRunners@506ae4d4]" started-at="2022-01-01T13:27:08 IST" name="tearDownClass" finished-at="2022-01-01T13:27:08 IST" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.TestRunners@942a29c]" started-at="2022-01-06T20:26:27 IST" name="tearDownClass" finished-at="2022-01-06T20:26:27 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunners.TestRunners -->
-    </test> <!-- testname -->
-  </suite> <!-- suitename -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

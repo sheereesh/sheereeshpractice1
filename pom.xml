@@ -24,24 +24,7 @@
         </configuration>
 
 
-
-
-
-
-
-
-
 </plugin>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -50,17 +33,8 @@
 
 
 
-
-
-
-
-
-
 </build>  
   
-
-
-
 <dependencies>
 
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
